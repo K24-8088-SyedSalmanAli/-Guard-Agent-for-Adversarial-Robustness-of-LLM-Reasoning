@@ -1,21 +1,3 @@
-"""
-============================================
-Guard Agent - Week 2: RAG Knowledge Base
-============================================
-Builds and manages the ChromaDB vector store
-for MITRE ATT&CK knowledge retrieval.
-
-Usage:
-    # Build the knowledge base (run once after MITRE data download)
-    python -m src.agents.rag_knowledge_base --build
-
-    # Query the knowledge base (for testing)
-    python -m src.agents.rag_knowledge_base --query "BEC payment fraud email spoofing"
-    
-    # Rebuild from scratch
-    python -m src.agents.rag_knowledge_base --build --force
-"""
-
 import json
 import sys
 import argparse

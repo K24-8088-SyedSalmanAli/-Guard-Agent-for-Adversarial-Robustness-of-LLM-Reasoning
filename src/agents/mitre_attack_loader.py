@@ -1,19 +1,3 @@
-"""
-============================================
-Guard Agent - Week 2: MITRE ATT&CK Data Loader
-============================================
-Downloads MITRE ATT&CK Enterprise STIX data from GitHub
-and parses it into structured format for RAG pipeline.
-
-Usage:
-    python -m src.agents.mitre_attack_loader
-    python -m src.agents.mitre_attack_loader --output data/mitre_attack/
-
-This creates structured JSON files from the official
-MITRE ATT&CK STIX 2.0 data that the RAG knowledge base
-will ingest into ChromaDB.
-"""
-
 import json
 import os
 import sys
