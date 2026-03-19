@@ -26,6 +26,10 @@ desktop.ini
 
 # Results (large files - optional)
 # data/results/*.json
+data/chroma_db/*.bin
+data/chroma_db/*.db
+data/chroma_db/*.index
+data/chroma_db/*.pkl
 
 # Ollama models (don't push)
 models/

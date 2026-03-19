@@ -1,0 +1,16 @@
+{
+  "credential-access": "Credential Access",
+  "execution": "Execution",
+  "impact": "Impact",
+  "persistence": "Persistence",
+  "privilege-escalation": "Privilege Escalation",
+  "lateral-movement": "Lateral Movement",
+  "defense-evasion": "Defense Evasion",
+  "exfiltration": "Exfiltration",
+  "discovery": "Discovery",
+  "collection": "Collection",
+  "resource-development": "Resource Development",
+  "reconnaissance": "Reconnaissance",
+  "command-and-control": "Command and Control",
+  "initial-access": "Initial Access"
+}
