@@ -121,15 +121,3 @@ python -m src.agents.baseline_llm
 ```bash
 python -m src.utils.evaluation --results data/results/baseline_llm_results.json
 ```
-
-## Weekly Milestones
-
-| Week | Module                     | Status         |
-| ---- | -------------------------- | -------------- |
-| 1    | LLM-Only Baseline          | 🔨 In Progress |
-| 2    | RAG + MITRE ATT&CK         | ⏳ Pending     |
-| 3    | Consistency Score C(O)     | ⏳ Pending     |
-| 4    | Validation Score V(O)      | ⏳ Pending     |
-| 5    | Stability Score S(O) + RTS | ⏳ Pending     |
-| 6    | Adversarial Testing        | ⏳ Pending     |
-| 7    | Statistical Validation     | ⏳ Pending     |
